@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-checkbox-selection/lib/index.js b/node_modules/react-native-checkbox-selection/lib/index.js
+index c7e1123..0019a52 100644
+--- a/node_modules/react-native-checkbox-selection/lib/index.js
++++ b/node_modules/react-native-checkbox-selection/lib/index.js
+@@ -86,8 +86,10 @@ const styles = StyleSheet.create({
+   },
+   styleTextDropdown: {
+     color: "black",
+-    fontSize: 18,
+-    marginBottom: 10
++    fontSize: 14,
++    top:2,
++    left:7,
++    marginBottom: 5
+   },
+   styleDropdownMenuSubsection: {
+     backgroundColor: "transparent",

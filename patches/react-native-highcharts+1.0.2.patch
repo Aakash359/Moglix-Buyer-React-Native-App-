@@ -1,0 +1,47 @@
+diff --git a/node_modules/react-native-highcharts/App/index.js b/node_modules/react-native-highcharts/App/index.js
+index 6a57b9f..aeacf67 100644
+--- a/node_modules/react-native-highcharts/App/index.js
++++ b/node_modules/react-native-highcharts/App/index.js
+@@ -4,10 +4,10 @@ import {
+     StyleSheet,
+     Text,
+     View,
+-    WebView,
+     Image,
+     Dimensions
+ } from 'react-native';
++import { WebView } from 'react-native-webview'
+ 
+ const win = Dimensions.get('window');
+ class ChartWeb extends Component {
+diff --git a/node_modules/react-native-highcharts/react-native-highcharts.js b/node_modules/react-native-highcharts/react-native-highcharts.js
+index 6a57b9f..c235d15 100644
+--- a/node_modules/react-native-highcharts/react-native-highcharts.js
++++ b/node_modules/react-native-highcharts/react-native-highcharts.js
+@@ -4,10 +4,10 @@ import {
+     StyleSheet,
+     Text,
+     View,
+-    WebView,
+     Image,
+     Dimensions
+ } from 'react-native';
++import { WebView } from 'react-native-webview'
+ 
+ const win = Dimensions.get('window');
+ class ChartWeb extends Component {
+@@ -61,10 +61,10 @@ class ChartWeb extends Component {
+ 
+     // used to resize on orientation of display
+     reRenderWebView(e) {
+-        this.setState({
+-            height: e.nativeEvent.layout.height,
+-            width: e.nativeEvent.layout.width,
+-        })
++        // this.setState({
++        //     height: e.nativeEvent.layout.height,
++        //     width: e.nativeEvent.layout.width,
++        // })
+     }
+ 
+     render() {

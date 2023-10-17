@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513254721500",
+    "project_id": "buyers-28eee",
+    "storage_bucket": "buyers-28eee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513254721500:android:d308cd2e2269cd52313119",
+        "android_client_info": {
+          "package_name": "com.moglix.buyers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513254721500-ur3p6cl3hpraonth4alscijo7jlvnkqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswrZhJS_6x497lPcUgf-gYD4O7nLPFyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513254721500-ur3p6cl3hpraonth4alscijo7jlvnkqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

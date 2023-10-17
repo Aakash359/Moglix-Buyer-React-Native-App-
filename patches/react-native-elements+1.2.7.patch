@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-elements/src/tooltip/Tooltip.js b/node_modules/react-native-elements/src/tooltip/Tooltip.js
+index 730f714..e4f668b 100644
+--- a/node_modules/react-native-elements/src/tooltip/Tooltip.js
++++ b/node_modules/react-native-elements/src/tooltip/Tooltip.js
+@@ -161,7 +161,7 @@ class Tooltip extends React.PureComponent {
+             xOffset: pageOffsetX,
+             yOffset: isIOS
+               ? pageOffsetY
+-              : pageOffsetY - StatusBar.currentHeight,
++              : pageOffsetY,
+             elementWidth: width,
+             elementHeight: height,
+           });
